@@ -4,7 +4,9 @@ array.length.times do |count|
   if array[count] == value_to_find
     return count
 end
+
 end
+
  return nil
 
 end
@@ -13,7 +15,8 @@ end
 
 
 def find_max_value(array)
-  # Add your solution here
+  array.sort
+  return array.last
 end
 
 def find_min_value(array)
