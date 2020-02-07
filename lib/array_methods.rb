@@ -1,16 +1,8 @@
 def find_element_index(array, value_to_find)
 
-counter = 0
+while array.include?(value_to_find) == true do
 
-while counter < array.length do
-
-counter += 1
-
-while value_to_find == element do
-
-  puts array(index)
-
-end
+puts array.index
 
 end
 
