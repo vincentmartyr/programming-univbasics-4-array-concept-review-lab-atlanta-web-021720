@@ -6,6 +6,8 @@ puts array.index
 
 end
 
+return array.index
+
 end
 
 
