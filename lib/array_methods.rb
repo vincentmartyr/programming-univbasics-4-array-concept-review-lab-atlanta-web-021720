@@ -4,8 +4,13 @@ counter = 0
 
 while counter < array.length do
 
-  puts array(index)
 counter += 1
+
+while value_to_find == element do
+
+  puts array(index)
+
+end
 
 end
 
