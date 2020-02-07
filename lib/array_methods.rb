@@ -1,9 +1,10 @@
 def find_element_index(array, value_to_find)
 
-while array.include?(value_to_find) == true do
-
-puts array.index
-
+array.length.times do |count|
+  if array[count] == value_to_find
+    return count
+end
+nil
 end
 
 return array.index
